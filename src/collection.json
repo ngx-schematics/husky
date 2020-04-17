@@ -3,7 +3,8 @@
   "schematics": {
     "husky": {
       "description": "A blank schematic.",
-      "factory": "./husky/index#husky"      
+      "factory": "./husky/index#husky",
+      "schema": "./husky/schema.json"
     }
   }
 }
